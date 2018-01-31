@@ -47,7 +47,6 @@ inputs:
         "The path to the AndroidManifest.xml, including the filename. Example: MyAndroidApp/Properties/AndroidManifest.xml"
       is_expand: true
       is_required: true
-      value_options: []
   - package_identifier: ""
     opts:
       title: "App Package Identifier"
@@ -56,7 +55,6 @@ inputs:
         "The package value. Example: com.organization.appname"
       is_expand: true
       is_required: false
-      value_options: []
   - app_label: ""
     opts:
       title: "App Label"
@@ -65,7 +63,6 @@ inputs:
         "This is the label that accompanies the app icon."
       is_expand: true
       is_required: false
-      value_options: []
   - version_code: ""
     opts:
       title: "App Version Code"
@@ -74,7 +71,6 @@ inputs:
         "The app version code. Example: 1"
       is_expand: true
       is_required: false
-      value_options: []
   - version_name: ""
     opts:
       title: "App Version Name"
@@ -83,4 +79,3 @@ inputs:
         "The app version name. Example: 1.0"
       is_expand: true
       is_required: false
-      value_options: []
